@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>different notepad</title>
+    <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="../newnote/notestyle.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,21 +17,23 @@
 </head>
 
 <body>
-    <div id="container">
-        <h1>notepad</h1>
-        <div id="write">
-            <label for="noteTitle">Note Title</label>
-            <input type="text" id="noteTitle" />
-            <label for="noteBody">Note</label>
-            <textarea id="noteBody"></textarea>
-            <button id="btnSave">Save Note</button>
-        </div>
-        <div id="read">
-            <button id="btnWrite">Write Note</button>
-            <select size="10" id="noteMaster"></select>
-            <div id="noteDisplay"></div>
-        </div>
+    <div class="outer-container">
+        <div id="container">
+            <h1>Notepad</h1>
+            <div id="write">
+                <label for="noteTitle">Note Title</label>
+                <input type="text" id="noteTitle" />
+                <label for="noteBody">Note</label>
+                <textarea id="noteBody"></textarea>
+                <button id="btnSave">Save Note</button>
+            </div>
+            <div id="read">
+                <button id="btnWrite">Write Note</button>
+                <select size="10" id="noteMaster"></select>
+                <div id="noteDisplay"></div>
+            </div>
 
+        </div>
     </div>
     <script src="note.js"></script>
     <script src="notes.js"></script>

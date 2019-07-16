@@ -6,6 +6,12 @@
     height: 200px;
 }
 
+h4 a {
+    font-size: 22px;
+    color: rgb(133, 148, 214);
+    text-shadow: 0 0 3px #000;
+}
+
 select {
     height: 200px!important;
 }
@@ -15,4 +21,70 @@ select {
     border: 1px solid #121212;
     background-color: silver;
     border-radius: 5px;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.outer-container {
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
+
+#container {
+    padding: 25px;
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 25vw;
+    margin-top: 10vh;
+}
+
+#ours {
+    background-image: linear-gradient(to top right, rgba(66, 99, 143, 0.116), rgba(55, 87, 145, 0.301), rgba(110, 174, 190, 0.486), rgba(133, 153, 197, 0.308), rgba(163, 173, 196, 0.418), rgba(70, 96, 153, 0.212), rgba(81, 98, 153, 0.384), transparent);
+    box-shadow: inset 0 0 10px #fff, 0 0 10px #222;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px #fff;
+}
+
+#ours h4 a #btnSave {
+    background: #fff;
+    box-shadow: 0 0 8px #fff;
+    color: rgb(48, 72, 179);
+}
+
+#URL {
+    background: rgba(255, 255, 255, 0.705);
+    outline: none;
+}
+
+#Yours {
+    background: rgba(255, 255, 255, 0.705);
+}
+
+#Yours input {
+    outline: none;
+}
+
+#resourceMaster option {
+    color: #fff;
+    font-size: 20px;
+    padding: 8px;
+}
+
+#btnWrite {
+    background: rgba(255, 255, 255, 0.733);
+    color: rgb(21, 138, 211);
+    border: solid 1px #fff;
+    box-shadow: 0 0 8px #fff;
+}
+
+#resourceDisplay {
+    background: #000;
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Resources</title>
+    <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="resource.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,30 +17,32 @@
 </head>
 
 <body>
-    <div id="container">
-        <h1>Resources</h1>
-        <div id="ours">
-            <label for="suggestions">Our Suggestions</label>
-            <h4><a href="https://htmlcheatsheet.com/">Html Cheat Sheet</a>
-                <br>
-                <a href="https://stackoverflow.com/">Stack Overflow</a>
-                <br>
-                <a href="https://developer.mozilla.org/en-US/">Mozilla</a>
-                <br>
-                <a href="https://www.youtube.com/">YouTube</a>
-                <br>
-                <a href="https://www.w3schools.com/">W3Schools</a>
-            </h4> <label for=" yours">Add Your Own</label>
-            <input type="URL" id="URL" placeholder="URL/s">
-            <textarea id="Yours" placeholder="books, notes, answers"></textarea>
-            <button id="btnSave">Save Resource</button>
-        </div>
-        <div id="read">
-            <button id="btnWrite">Add New Source</button>
-            <select size="10" id="resourceMaster"></select>
-            <div id="resourceDisplay"></div>
-        </div>
+    <div class="outer-container">
+        <div id="container">
+            <h1>Resources</h1>
+            <div id="ours">
+                <label for="suggestions">Our Suggestions</label>
+                <h4><a href="https://htmlcheatsheet.com/">Html Cheat Sheet</a>
+                    <br>
+                    <a href="https://stackoverflow.com/">Stack Overflow</a>
+                    <br>
+                    <a href="https://developer.mozilla.org/en-US/">Mozilla</a>
+                    <br>
+                    <a href="https://www.youtube.com/">YouTube</a>
+                    <br>
+                    <a href="https://www.w3schools.com/">W3Schools</a>
+                </h4> <label for="Yours">Add Your Own</label>
+                <input type="URL" id="URL" placeholder="URL/s">
+                <textarea id="Yours" placeholder="books, notes, answers"></textarea>
+                <button id="btnSave">Save Resource</button>
+            </div>
+            <div id="read">
+                <button id="btnWrite">Add New Source</button>
+                <select size="10" id="resourceMaster"></select>
+                <div id="resourceDisplay"></div>
+            </div>
 
+        </div>
     </div>
     <script src="resource.js"></script>
     <script src="resources.js"></script>
