@@ -22,7 +22,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 20px;
     width: 10vw;
     height: 10vh;
-    box-shadow: inset 0 0 40px white;
+    box-shadow: inset 0 0 10px white;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -38,7 +38,7 @@ body {
     color: #fff;
     width: 100vw;
     height: 100vh;
-    box-shadow: inset 0 0 40px white;
+    box-shadow: inset 0 0 10px white;
 }
 
 .spacer {
@@ -47,13 +47,13 @@ body {
     background: rgb(0, 0, 0);
     position: fixed;
     top: 0;
-    right: 30%;
+    right: 29%;
     z-index: 1000;
     box-shadow: 0 0 15px #fff;
 }
 
 .warehouse {
-    width: 25%;
+    width: 24%;
     height: 100vh;
     background: black;
     position: fixed;
@@ -68,7 +68,7 @@ body {
     transform: translate(-95%);
     position: fixed;
     height: 80vh;
-    margin-left: 1%;
+    margin-left: 3%;
     margin-top: 5%;
     line-height: 38pt;
     box-shadow: 0 5px 20px -3px rgba(253, 253, 253, 0.479), inset 0 0 10px rgba(84, 173, 201, 0.829);
@@ -76,7 +76,7 @@ body {
     color: rgba(62, 117, 189, 0.87);
     text-shadow: 0 0 2px white;
     transition: transform 300ms ease-out 150ms;
-    font-size: 16pt;
+    font-size: 18pt;
     border-right: solid 2px #fff;
     border-top: solid 1px #fff;
     border-bottom: solid 1px #fff;
