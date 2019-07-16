@@ -1,0 +1,18 @@
+#container {
+    padding: 15px;
+}
+
+#Yours {
+    height: 200px;
+}
+
+select {
+    height: 200px!important;
+}
+
+#resourceDisplay {
+    padding: 20px;
+    border: 1px solid #121212;
+    background-color: silver;
+    border-radius: 5px;
+}
